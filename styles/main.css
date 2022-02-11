@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: beige;
+}
+#page-container {
+    position: relative;
+    width: 1200px;
+    background-color: lightpink;
+    min-height: 100vh;
+    margin: auto;
+    
+    padding-bottom: 100px;
+}
+.nav-bar {
+    background-color: lightblue;
+    height: 110px;
+}
+.nav-bar a li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 72px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.nav-bar a li:hover {
+    background-color: purple;
+    color: yellow;
+}
+.nav-links {
+    float: right;
+}
+#logo {
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.hero-container {
+    height: 450px;
+}
+#hero-image {
+    background-image: url("/images/codingbg.jpg");
+    width: 1200px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#profile {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    left: 31%;
+    top: 5%;
+    border: solid 3px black;
+}
+.home-section {
+    padding: 50px;
+    margin: 20px;
+    background-color: lightgreen;
+    border-radius: 30px;
+}
+
+.home-section h1 {
+    margin-bottom: 25px;
+    font-size: 50px;
+    text-align: center;
+    background-color: lightcyan;
+}
+.home-section p {
+    font-size: 25px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+.home-content-container {
+    border: 5px solid orange;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-blog {
+    border: red solid 5px;
+    width: 65%;
+    border-radius: 20px;
+    padding: 10px;
+    height: 100%;
+}
+.home-blog h1 {
+    text-align: center;
+}
+.home-blog a {
+    text-decoration: none;
+}
+.home-blog h3 {
+    margin: 30px;
+}
+.home-blog p {
+    margin:30px;
+}
+.home-blog a {
+    margin-left: 30px;
+    font-size: 20px;
+    color: red;
+    background-color: aliceblue;
+    border-radius:5px;
+}
+
+.week-watch {
+    border: blue solid 5px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 25%;
+    height: 100%;
+}
+.week-watch h3 {
+    text-align: center;
+}
+.week-watch p {
+    margin: 10px;
+}
+#git {
+    text-decoration: none;
+    width: 80px;
+    float: right;
+}
+#twitter {
+    width: 70px;
+    float: right;
+}
+#email {
+    text-decoration: none;
+    color: black;
+}
+#email h3 {
+    padding-left: 20px;
+}
+#footer-container {
+    background-color: lightgrey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.social-links {
+    background-color: red;
+    height: 60px;
+    
+}
+.social-logos {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+
+
