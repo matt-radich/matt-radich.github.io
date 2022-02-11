@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/blog-posts.css" rel="stylesheet" type="text/css">
+    <title>MattRadich-Blog</title>
+</head>
+
+<body>
+    <div id="page-container">
+            
+        <div class="nav-bar">
+                <a href="index.html"><img src="images/ak.jpg" id="logo"></a>
+            <div class="nav-links">
+                <!--navigation here-->
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="blog.html"><li>Blog</li></a>
+            </div>
+        </div>
+
+        <div id="blog-post-container">
+            <h1>What is the difference between Margin, Border and Padding?</h1>
+            <section class="blog-post-content">
+                <h3><u>Margin</u></h3>
+                <p>Margin is the space between the border and the next piece of content or element of your design.<br>
+                    This is outside of the border.<br>
+                Margin goes around all four sides of the content and you can individually change and set each of the margins.<br>
+                </p>
+
+                <h3><u>Border</u></h3>
+                <p>Border is the space that is between your margin and your padding.<br>
+                Borders can be styled to suit your needs, color,size and decoration.</p>
+
+                <h3><u>Padding</u></h3>
+                <p>Padding is the space that is inside your element, that is between your content and the inside of your border<br>
+                    Like Margin, Padding goes around all four sides of your content and you can individually change and set each of these sides.
+                </p>
+
+                <h3><u>Box Model</u></h3>
+                <img src="images/box-model.PNG" id="box-model">
+                <p>The image above is often referred to as the "Box Model".<br>
+                This image will help us understand where Margin, Border and Padding are used.<br>
+                When dealing with Margin and Padding, If you do not want to define and style them individually,
+                You can style them all on one line. <br>Example below.<br>
+                <strong>p {margin: 10px 15px 20px 25px }</strong><br>
+                With this, We always start from the top and work our way around clockwise.So in the example code as shown above,<br>
+                <strong>Margin-top will be 10px, Margin-right will be 15px, Margin-bottom will be 20px and Margin-left will be 25px.</strong>
+
+                </p>
+            </section>
+        </div>
+
+
+        <footer id="footer-container">
+            <div class="social-links">
+                <div class="social-logos">
+                    <a href="https://github.com/matt-radich/matt-radich.github.io" target="_blank"><img src="images/GitHub-Logo.png"  id="git"></a>
+                    <a href="#twitter" ><img src="images/twitter-logo.png" id="twitter"></a>
+                    <a href="https://gmail.google.com" target="_blank" id="email"><h3>Email: mattradich2509@gmail.com</h3></a>
+                </div>
+                
+            </div>
+        </footer>            
+       
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
