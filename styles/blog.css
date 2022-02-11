@@ -1,0 +1,22 @@
+#blog-container {
+    margin: 20px;
+    background-color: beige;
+    border: 5px solid red;
+}
+.blog-content {
+    width:100%;
+}
+#blog-posts {
+    background-color: orange;
+    border: 5px solid blue;
+    margin: 20px;
+    text-decoration: none;
+}
+#blog-posts a {
+    text-decoration: none;
+}
+#blog-heading {
+    text-align: center;
+    border: 5px solid pink;
+    margin: 10px;
+}
