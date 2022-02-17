@@ -1,0 +1,34 @@
+@media screen and (max-width: 400px ) {
+    body {
+        display: flex;
+        min-height: 100%;
+        margin: 0 auto;
+        background-color: beige;
+        max-width: 100%;
+    }
+    #page-container {
+        position: relative;
+        width: 100vw;
+        background-color: lightpink;
+        min-height: 100vh;
+        margin: auto;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .nav-bar {
+        background-color: lightblue;
+        height: 110px;
+        width: 100vw;
+    }
+    .nav-bar a li {
+        display: inline-block;
+        font-size: 25px;
+        padding: 5px;
+        margin-right: 20px;
+        margin-top: 72px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+
+}
