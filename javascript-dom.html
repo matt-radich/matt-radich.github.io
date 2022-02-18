@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/blog-posts.css" rel="stylesheet" type="text/css">
+    <title>MattRadich-Blog</title>
+</head>
+
+<body>
+    <div id="page-container">
+            
+        <div class="nav-bar">
+                <a href="index.html"><img src="images/ak.jpg" id="logo"></a>
+            <div class="nav-links">
+                <!--navigation here-->
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="blog.html"><li>Blog</li></a>
+            </div>
+        </div>
+
+        <div id="blog-post-container">
+            <h1>Javascript-Dom</h1>
+            <section class="blog-post-content">
+                <h3><u>An analogy to describe the differences between HTML and CSS:</u></h3>
+                <p>I was once told that the differences and or relationship between HTMl, CSS and JavaScript
+                    is similar to that of building a house<br><br>
+                    
+                    HTML is like the frame of the house, the supplies needed to build it. 
+                    For example, A house has different rooms, doors, windows, furniture.
+                    Which is similar to HTML that is made up of Header,Body,Footer.<br><br>
+                    
+                    CSS is the styling of the house, You want rooms to look different, have different colours,
+                    maybe have all different furniture and art.
+                    Which is similar to CSS, that defines how your webpage looks. We can apply different colours,
+                    images, sizes of certain elements, and position them where we want.<br><br>
+                    
+                    JavaScript is the way you interact with your house, and the function that your house has.
+                    For example, when you hit the light switch, the light comes on, Or when you turn a door handle 
+                    the door unlocks and can open. 
+                    Which is similar to Javascript on our webpage, We can interact with different elements and 
+                    manipulate and modify them to function a certain way or produce something we want.<br><br>
+                </p>
+                <h3><u>Control flow and loops:</u></h3>
+                <p>Control flow is the order in which your computer executes your code or program.<br>
+                    It runs your code from first line to last line.<br>
+                    We cant just jump up and down the code and execute what we want, when we want.<br>
+                    For example, Think of making a coffee in the morning. We must execute the steps from first to last in order to get the result that we want.
+                </p>
+                <ol style="font-family: 'Courier New', Courier, monospace;">
+                    <li>Get a coffee cup</li>
+                    <li>Put water in kettle</li>
+                    <li>Boil water in kettle</li>
+                    <li>Put desired amount of coffee in cup</li>
+                    <li>Once boiled, Tip kettle water into coffee cup</li>
+                    <li>Mix</li>
+                </ol><br><br>
+                <p>If you look at this example, There is a required set of steps to do what we want to do right.<br>
+                    We cant mix the water and coffee together without a cup,
+                    Also we cant boil the kettle when there is no water in it.<br>
+                    Loops are used to repeat the same lines of code to reach a result aslong as the conditions of the loop are met.<br>
+                    In the example above. If we get a coffee cup, but forget to put water in the kettle and then try to boil the water.<br>
+                    The "Put water in kettle" condition is not met, So we will loop back to the start and meet that condition before we move onto step 3.
+
+                </p>
+            
+                <h3><u>The DOM</u></h3>
+                <p>Document Objet Model known more commonly as the DOM is a programming interface for web documents.<br>
+                Which basically means a interface that lets you interact and manipulate web documents, in our case web pages.<br>
+                This is done through a programming language, Most commonly javascript.<br>
+                HTML has different tags/elements and we can use javascript to access those elements and manipulate them how we want through the DOM.<br>
+                We might want to interact with a HTML tag through the DOM by changing the colour of a certain element.<br>
+                The following command does this for us.<br>
+                HTML: &lt;p&gt;id="changeColour">This is a paragraph &lt;/p&gt;<br>
+                Access this through DOM and change colour: document.getElementById("changeColour").style.color = "red";<br><br>
+                </p>
+
+                <h3><u>What are Functions and Why are they useful</u></h3>
+                <p>Functions are a set of code that performs a task or calculates.<br> 
+                    Functions take a input, do something, and then produce a output.<br>
+                    Functions are useful as we can put alot of conditions,or tasks to be completed within that function
+                    and then we can call that function anywhere in our code by its name, and it will give us an output.
+                </p>
+            
+                
+            </section>
+        </div>
+
+    
+
+
+
+
+
+        <footer id="footer-container">
+            <div class="social-links">
+                <div class="social-logos">
+                    <a href="https://github.com/matt-radich/matt-radich.github.io" target="_blank"><img src="images/GitHub-Logo.png"  id="git"></a>
+                    <a href="#twitter" ><img src="images/twitter-logo.png" id="twitter"></a>
+                    <a href="https://gmail.google.com" target="_blank" id="email"><h3>Email: mattradich2509@gmail.com</h3></a>
+                </div>
+                
+            </div>
+        </footer>            
+
+   
+
+    </div>
+
+
+
+
+</body>
+</html>
