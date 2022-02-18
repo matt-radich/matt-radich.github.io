@@ -10,16 +10,17 @@ body {
     display: flex;
     min-height: 100%;
     margin: 0 auto;
-    background-color: black;
+    background-color: bisque;
 }
 #page-container {
     position: relative;
-    width: 1200px;
-    background-color: lightpink;
+    background-color: #e1e2e3;
     min-height: 100vh;
-    margin: auto;
-    
+    margin: 0 auto;
     padding-bottom: 100px;
+    box-shadow: 0 10px 50px white;
+    max-width: 100%;
+    width: 60%;
 }
 .nav-bar {
     background-color: white;
@@ -54,40 +55,59 @@ body {
 .hero-container {
     height: 450px;
 }
-#hero-image {
-    /* background-image: url("/images/codingbg.jpg"); */
+/* #hero-image {
+     background-image: url("/images/codingbg.jpg");
     width: 1200px;
-    height: 450px;
+    height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
+ } */
+ .profile-image {
+    margin:0 auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
 #profile {
-    position: absolute;
-    width: 400px;
-    height: 400px;
+    position: relative;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     left: 31%;
     top: 5%;
-    border: solid 3px black;
+    box-shadow: 0px 0px 30px white ;
 }
 .home-section {
     padding: 50px;
-    margin: 20px;
-    background-color: lightgreen;
+    margin-bottom: 50px;
+    box-shadow: 20px -10px 50px white;
+    /* background-color: lightgreen; */
     border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    background-color: lightgray;
 }
 
-.home-section h1 {
+.home-section h3 {
     margin-bottom: 25px;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
-    background-color: lightcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 0px white;
+    /* background-color: lightcyan; */
+}
+.home-section h4 {
+    text-align: center;
 }
 .home-section p {
     font-size: 25px;
     text-align: center;
-    background-color: lightseagreen;
+    /* background-color: whitesmoke; */
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .home-content-container {
     border: 5px solid orange;
@@ -157,17 +177,22 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 110px;
     
 }
 .social-links {
-    background-color: red;
-    height: 60px;
+    
+    background-color: white;
+    height: 100%;
     
 }
 .social-logos {
+    
     padding-top: 10px;
     padding-right: 20px;
 }
 
-
+hr {
+    border-top:  1px dashed black;
+}
 
