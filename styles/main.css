@@ -10,7 +10,7 @@ body {
     display: flex;
     min-height: 100%;
     margin: 0 auto;
-    background-color: bisque;
+    background-color: #b7f7d3;
 }
 #page-container {
     position: relative;
